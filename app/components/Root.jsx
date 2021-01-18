@@ -52,7 +52,6 @@ const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x000);
 
 
-
 // Attach the renderer to the DOM element.
 container.appendChild(renderer.domElement);
 
@@ -117,6 +116,7 @@ function update()
     controls.update();
 }
 
-var lastX, lastY;
-var dragging = false;
 requestAnimationFrame(update)
+
+// Get the snackbar DIV
+var x = document.getElementById("snackbar");

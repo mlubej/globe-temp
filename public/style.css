@@ -6,3 +6,24 @@
   margin: 0;
   padding: 0;
 }
+
+ /* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+  visibility: show; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: 0px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: left; /* Centered text */
+  border-radius: 20px; /* Rounded borders */
+  padding: 25px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 30px;
+  top: 30px;
+}
+
+ul, ol {
+ margin-left:25px;
+ padding: 10px;
+}
