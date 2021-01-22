@@ -27,3 +27,21 @@ ul, ol {
  margin-left:25px;
  padding: 10px;
 }
+
+a:link {
+  color: #00cbf4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #00cbf4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
